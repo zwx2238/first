@@ -1,0 +1,18 @@
+<html>
+<body>
+<span id="sp_time"></span>
+<script type="text/javascript">
+setInterval(function(){
+	var dd = new Date();
+	var y = dd.getFullYear();
+	var m = dd.getMonth() + 1;
+	var d = dd.getDate();
+	var h = dd.getHours();
+	var mi = dd.getMinutes();
+	var s = dd.getSeconds();
+	var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());
+	document.getElementById("sp_time").innerHTML = str;
+},1000);
+</script>
+</body>
+</html>

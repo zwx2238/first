@@ -1,0 +1,75 @@
+.max{height:800px;float:center}
+.url{
+	color:blue;
+}
+.link{
+	color:red;
+}
+.end{
+	color:green;
+}
+.link_node{
+	color:red;
+}
+.url,.link,.end{
+	font-style:italic;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+a:hover{
+}
+.searchform{
+    width:500;
+    text-align:center;
+    display:table;
+    margin:0 auto;
+}
+html{
+	/*text-shadow: 1px 1px #ccc;*/
+	line-height: 2em;
+	font-size:1.5em;
+	font-family:"Courier New", KaiTi;
+    background-color: black;
+    color: white;
+}
+div{
+    /*text-indent: 20vw;*/
+}
+.parents,.siblings,.subs,.links{
+	/*background-color:white;*/
+	background-color:black;
+}
+hr{
+	color:white;
+	height:0.05px;
+}
+.hr{
+	background-color:hotpink;
+	line-height:3px;
+}
+.search{
+    /*background-color: #F0F8FF;*/
+}
+
+.text{
+       /*background-color: white;*/
+       background-color: black;
+}
+.blank{
+       /*background-color: #F5F5DC;*/
+       background-color: grey;
+       height:1px;
+}
+
+.body{
+	/*overflow:auto;*/
+	/*height:5000px;*/
+}
+.title,.page{
+	text-indent:0;
+
+	text-align:center;
+}

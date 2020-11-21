@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script>
+		function changetext(s){
+			console.log("123")
+			var name = $(s).html();
+			$(s).html("");
+			$(s).parent().append("<input value='"+name+"'/>");
+			$(s).parent().children("input").attr("onblur","nameblur(this,'"+name+"')");
+			$(s).parent().children("input").focus();
+			$(s).remove();
+		}
+	</script>
+</head>
+<body>
+	<a onclick='changetext(this)'>12563</a>	
+</body>
+</html>
